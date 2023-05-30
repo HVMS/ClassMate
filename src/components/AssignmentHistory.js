@@ -1,4 +1,4 @@
-import { ChakraProvider, Box, Navbar} from "@chakra-ui/react";
+import { ChakraProvider, Box} from "@chakra-ui/react";
 import StudentNavBar from "./studentnavbar";
 import { useState } from 'react';
 import TableComponent from "./TableComponent";
