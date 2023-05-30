@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChakraProvider, Box, Table, Thead, Tr, Th, Tbody, Td, Button} from '@chakra-ui/react';
+import { ChakraProvider, Box, Table, Thead, Tr, Th, Tbody, Td} from '@chakra-ui/react';
 
 function ProfessorGridComponent() {
 
