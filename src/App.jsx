@@ -1,8 +1,8 @@
 import './App.css';
 import NavigationBar from './components/navigationbar';
-import ProfessorPage from './components/professorpage';
-import StudentPage from './components/studentpage';
-import AssignmentHistory from './components/AssignmentHistory';
+import ProfessorPage from './pages/professorpage';
+import StudentPage from './pages/studentpage';
+import AssignmentHistory from './pages/AssignmentHistory'
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, Link} from 'react-router-dom';
 import { ChakraProvider, Center, Button} from '@chakra-ui/react';
