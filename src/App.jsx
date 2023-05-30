@@ -30,7 +30,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/professor" element={<ProfessorPage />} />
           <Route path="/student" element={<StudentPage />} />
-          <Route path="/history" element={<AssignmentHistory />} />
+          <Route exact path="/history" element={<AssignmentHistory />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
