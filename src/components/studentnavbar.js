@@ -1,11 +1,14 @@
 import { ChakraProvider, Flex, Box, Spacer, Button} from "@chakra-ui/react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-function StudentNavBar({handleButtonClick}){
+function StudentNavBar(){
     
-    const handleClick = () => {
-        window.location.href = '/history'; // Redirects to the /hello route
-    }; 
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        navigate("/history");
+    };
 
     return (
         <ChakraProvider>
@@ -14,7 +17,7 @@ function StudentNavBar({handleButtonClick}){
                     Student Assignment 
                 </Box>
                 <Spacer />
-                <Button p='3' alignSelf={'center'} marginRight={5} onClick={handleClick}>
+                <Button p='3' alignSelf={'center'} marginRight={5} onClick={handleButtonClick}>
                     History
                 </Button>
             </Flex>
