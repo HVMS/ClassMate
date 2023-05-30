@@ -6,10 +6,19 @@ Assignment 1 Repo Link :
 
 Assignment 1 Netlify Link : 
 
+Front-end Technologies Used:
+1. React.js
+2. Chakra UI
+3. Tailwind CSS
+4. HTML and basic CSS
+
+Project Overview:
+
+The classmate application provides a digital platform for students, professors, and campus administrators to efficiently manage and interact within an educational setting. It aims to streamline administrative tasks, facilitate effective communication between students and professors, and enhance the overall learning experience.
+
 Overview (Assignment Feature):
 
 Professor view:
-
 
 In the Assignment feature, there are two possibilities - either from professor side or student side. 
 
