@@ -1,6 +1,12 @@
-import { ChakraProvider, Flex, Box, Spacer, Button } from "@chakra-ui/react";
+import { ChakraProvider, Flex, Box, Spacer, Button} from "@chakra-ui/react";
+import React from "react";
 
-function StudentNavBar({ handleHistoryButtonClick}){
+function StudentNavBar({handleButtonClick}){
+    
+    const handleClick = () => {
+        window.location.href = '/history'; // Redirects to the /hello route
+    }; 
+
     return (
         <ChakraProvider>
             <Flex bg={'green.700'}>
@@ -8,7 +14,7 @@ function StudentNavBar({ handleHistoryButtonClick}){
                     Student Assignment 
                 </Box>
                 <Spacer />
-                <Button p='3' alignSelf={'center'} marginRight={5} onClick={handleHistoryButtonClick}>
+                <Button p='3' alignSelf={'center'} marginRight={5} onClick={handleClick}>
                     History
                 </Button>
             </Flex>
